@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Marck+Script&family=Unica+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/styles/index.css">
     <title>Awasome books</title>
 </head>
 <body>
     <h1 class="books-heading">Awesome Books</h1>
-    <div class="book-list">
-
-
-    </div>
-    <form action="add-book">
-        <input id="title" name="title" type="text" placeholder="Title">
-        <input id="Author" name="author" type="text" placeholder="Author">
-        <button name="add" type="button" title="button">Add Book</button>
+    <div class="book-list"></div>
+    <p></p>
+    <form action="#" class="add-book">
+        <ul>
+            <li>
+                <input id="title" name="title" class="input" type="text" placeholder="Title">
+            </li>
+            <li>
+                <input id="Author" name="author" class="input" type="text" placeholder="Author">
+            </li>
+            <li>
+                <button name="add" class="add-button Book-btn" type="button" title="button">Add Book</button>
+            </li>
+        </ul>
     </form>
     <script type="module" src="src/scripts/list.js"></script>
     <script type="module" src="src/scripts/data.js"></script>
