@@ -1,7 +1,7 @@
 const lsit = document.querySelector('.book-list');
 const data = JSON.parse(localStorage.getItem('Data'));
 
-if (data.length > 0) {
+if (data !== null) {
   for (let i = 0; i < data.length; i += 1) {
     const div = document.createElement('div');
     div.id = i;
