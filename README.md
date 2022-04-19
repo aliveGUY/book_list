@@ -8,7 +8,7 @@
 - HTML, CSS
 - nom, JSON
 
-## Live Demo (if available)
+## Live Demo
 
 [No Demo]()
 
