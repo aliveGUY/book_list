@@ -22,4 +22,3 @@ dltBtn.forEach((btn) => {
     document.location.reload();
   });
 });
-export default data;
