@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/index.css">
     <title>Awasome books</title>
 </head>
 <body>
@@ -13,10 +14,11 @@
 
     </div>
     <form action="add-book">
-        <input type="text" placeholder="Title">
-        <input type="text" placeholder="Author">
-        <button type="button" title="button"></button>
+        <input name="title" type="text" placeholder="Title">
+        <input name="author" type="text" placeholder="Author">
+        <button name="add" type="button" title="button">Add Book</button>
     </form>
-    <script type="module" src="./src/scripts/list.js"></script>
+    <script type="module" src="src/scripts/list.js"></script>
+    <script type="module" src="src/scripts/data.js"></script>
 </body>
 </html>
