@@ -18,4 +18,3 @@ dltBtn.forEach((btn) => {
     book.delete();
   };
 });
-
