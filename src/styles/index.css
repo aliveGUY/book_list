@@ -21,10 +21,27 @@ body {
   font-family: 'Marck Script', sans-serif;
 }
 
+.Navigation {
+  position: absolute;
+  background: rgba(78, 159, 61, 0.3);
+  right: 0;
+  border-radius: 15px 0 0 15px;
+}
+
+.Navigation-list {
+  list-style: none;
+  display: flex;
+}
+
+.Navigation-list li{
+  margin: 10px;
+}
+
 .book-list {
   max-width: 800px;
   width: 90%;
   margin: 0 auto;
+  margin-top: calc(max(10vh,10vw));
 }
 
 .Book {
@@ -80,13 +97,27 @@ body {
   padding: 8px;
 }
 
+.Nav-btn:focus {
+  border: var(--black) solid 2px;
+  background-color: var(--dark-green);
+  padding: 8px;
+}
+
 .add-book {
-  display: flex;
+  display: none;
+  flex-direction: column;
+}
+
+.add-book h2 {
+  padding-top: 55px;
+  color: var(--light-green);
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
 }
 
 .add-book ul {
   background-color: rgba(78, 159, 61, 0.3);
-  border-radius: 0 0 12px 12px;
+  border-radius: 12px;
   list-style: none;
   margin: 0 auto;
 }
@@ -116,4 +147,24 @@ body {
 
 .input::placeholder {
   font-family: 'Julius Sans One', sans-serif;
+}
+
+.contact {
+  display: none;
+  width: 50vw;
+  max-width: 500px;
+  color: var(--light-green);
+  margin: 0 auto;
+  background-color: rgba(78, 159, 61, 0.3);
+  padding: 10px;
+  margin-top: 65px;
+  border-radius: 20PX;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact ul {
+  list-style: none;
 }

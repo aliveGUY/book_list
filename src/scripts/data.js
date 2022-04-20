@@ -1,4 +1,4 @@
-import Methods from 'book.js';
+import Methods from './book.js';
 
 const form = document.forms[0];
 const button = form.elements.add;

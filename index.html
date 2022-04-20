@@ -10,9 +10,23 @@
 </head>
 <body>
     <h1 class="books-heading">Awesome Books</h1>
+    <nav class="Navigation">
+        <ul class="Navigation-list">
+            <li class="Navigation-item">
+                <button class="Book-btn Nav-btn">List</button>
+            </li>
+            <li class="Navigation-item">
+                <button class="Book-btn Nav-btn">Add new</button>
+            </li>
+            <li class="Navigation-item">
+                <button class="Book-btn Nav-btn">Contant</button>
+            </li>   
+        </ul>
+    </nav>
     <div class="book-list"></div>
     <p></p>
     <form action="#" class="add-book">
+        <h2>Add new book</h2>
         <ul>
             <li>
                 <input id="title" name="title" class="input" type="text" placeholder="Title">
@@ -25,7 +39,20 @@
             </li>
         </ul>
     </form>
+    <section class="contact">
+        <h2>Contact information</h2>
+        <p>Do you have any questions or you just want to say "Hello"?<br>You can reach out to us!</p>
+        <ul>
+            <li>
+                Email: exam@ple.com
+            </li>
+            <li>
+                Github: example.github.io
+            </li>
+        </ul>
+    </section>
     <script type="module" src="src/scripts/list.js"></script>
+    <script src="src/scripts/navbar.js"></script>
     <script type="module" src="src/scripts/data.js"></script>
 </body>
 </html>
