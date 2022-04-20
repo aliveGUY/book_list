@@ -44,6 +44,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/Sciborskyy)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ilya-dubrovin-921a2721b/)
 
+## Contributor
+- GitHub: [@githubhandle](https://github.com/AlphaNtihinduka)
+- Twitter: [@twitterhandle](https://twitter.com/AlphaNtihinduka)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ntihinduka-alpha-81bb7b22a/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
