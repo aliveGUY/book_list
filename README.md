@@ -31,6 +31,7 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 - [ ] Run `npx stylelint " **/*.{css,scss}" **` to make sure styles written properly
 - [ ] Run `npx hint .` to make sure HTML markup written properly
+- [ ] Run `npx eslint .` to make Javascript files are written properly
 
 ### Deployment
 - [ ] `git add .`
