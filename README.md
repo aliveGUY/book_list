@@ -31,6 +31,7 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 - [ ] Run `npx stylelint " **/*.{css,scss}" **` to make sure styles written properly
 - [ ] Run `npx hint .` to make sure HTML markup written properly
+- [ ] Run `npx eslint .` to make Javascript files are written properly
 
 ### Deployment
 - [ ] `git add .`
@@ -43,6 +44,11 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/aliveGUY)
 - Twitter: [@twitterhandle](https://twitter.com/Sciborskyy)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ilya-dubrovin-921a2721b/)
+
+## Contributor
+- GitHub: [@githubhandle](https://github.com/AlphaNtihinduka)
+- Twitter: [@twitterhandle](https://twitter.com/AlphaNtihinduka)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ntihinduka-alpha-81bb7b22a/)
 
 ## 🤝 Contributing
 
